@@ -1,0 +1,11 @@
+/home/ubuntu/projects/Razrabotchik-C/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/logger/CMakeFiles/logger.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/logger/CMakeFiles/edit_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/logger/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/app/CMakeFiles/logger_app.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/app/CMakeFiles/edit_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/app/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/tests/CMakeFiles/logger_tests.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/tests/CMakeFiles/edit_cache.dir
+/home/ubuntu/projects/Razrabotchik-C/build/src/tests/CMakeFiles/rebuild_cache.dir
