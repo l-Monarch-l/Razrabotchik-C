@@ -103,3 +103,4 @@ T – выводить статистику каждые T секунд, есл�
 ## Дополнительно
 Проверка портов если заняты `sudo lsof -i :<port>` затем можно `sudo kill -9 <PID>` чтобы освободить порт или выбрать другой.<br><br>
 Автор: l-Monarch-l
+<br>Ссылка на GitHub: https://github.com/l-Monarch-l/Razrabotchik-C 
