@@ -18,8 +18,7 @@
 │       ├── Sink.h
 │       ├── FileSink.h
 │       ├── SocketSink.h
-│       ├── Logger.h
-│       └── CompositeSink.h (опционально)
+│       └── Logger.h
 ├── src/
 │   ├── logger/
 │   │   ├── CMakeLists.txt
