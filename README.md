@@ -46,7 +46,6 @@ mkdir build && cd build
 cmake .. -DBUILD_SHARED_LIBS=OFF   # статическая библиотека
 # или -DBUILD_SHARED_LIBS=ON      # динамическая
 make -j$(nproc)
-make
 ```
    
 <img width="761" height="289" alt="{520AE2F6-8032-47DD-983F-5FFC21AEA85C}" src="https://github.com/user-attachments/assets/db515768-8e60-4c15-a00a-f561574825cd" />
@@ -64,7 +63,7 @@ make
 Многопоточное приложение, которое читает сообщения из консоли и передаёт их в отдельный поток для записи через очередь.<br>
 Запуск:<br>
 Файловый режим: ./logger_app <log_file> <DEBUG|INFO|ERROR><br>
-Сокетный режим: ./logger_app --socket <ip> <port> <DEBUG|INFO|ERROR><br>
+Сокетный режим: ./logger_app --socket <ip> <port> <DEBUG|INFO|ERROR>
 Ввод:<br>
 Сообщение может начинаться с [DEBUG], [INFO] или [ERROR] – тогда используется указанный уровень.<br>
 Если тега нет – используется уровень по умолчанию.<br>
@@ -91,7 +90,7 @@ T – выводить статистику каждые T секунд, есл�
 <img width="474" height="162" alt="{617D254E-E87E-4011-8D97-612738711645}" src="https://github.com/user-attachments/assets/5f930249-c859-4ffa-b33a-556952bd712c" />
 
 ### Сокетный режим
-Здесь нужно терминала, в 1 терминале будет статистика, во 2 терминале сам сокетный режим в котором будут сообщения.<br>
+Здесь нужно два терминала, в 1 терминале будет статистика, во 2 терминале сам сокетный режим в котором будут сообщения.<br>
 Находясь в папке `/build` введите `./src/stats_app/stats_app 8080 3 5` для запуска статистики.<br>
 Находясь в папке `/build` введите `./src/app/logger_app --socket 127.0.0.1 8080 DEBUG` для запуска файлового режима.<br>
 
@@ -102,5 +101,5 @@ T – выводить статистику каждые T секунд, есл�
 <img width="608" height="240" alt="{AFB28BBA-9F38-44DB-8C18-13F270BE5E25}" src="https://github.com/user-attachments/assets/55deffb7-7918-48dd-9e0a-7ed42aa877b1" />
 
 ## Дополнительно
-Проверка портов если заняты `sudo lsof -i :<port>` затем можно `sudo kill -9 <PID>` чтобы освободить порт или выбрать другой.<br>
+Проверка портов если заняты `sudo lsof -i :<port>` затем можно `sudo kill -9 <PID>` чтобы освободить порт или выбрать другой.<br><br>
 Автор: l-Monarch-l
